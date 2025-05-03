@@ -1,0 +1,48 @@
+{
+  "name": "Dark-Cyber",
+  "displayName": "Dark Cyber Theme",
+  "description": "Dark Cyber is a vibrantly elegant dark theme available for multiple platforms. Inspired by the cyberpunk culture and mystery of aliens, this theme combines rich, deep colors with a clean and modern design.",
+  "version": "1.1.1",
+  "publisher": "jonypeixoto",
+  "homepage": "https://darkcyber.netlify.app/",
+	"license": "MIT",
+  "maintainers": [
+		"Jony Peixoto <info@cybertimeup.com>"
+	],
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/jonypeixoto/Dark-Cyber-VSCode.git"
+	},
+	"bugs": {
+		"url": "https://github.com/jonypeixoto/Dark-Cyber-VSCode/issues"
+	},
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"theme",
+		"multi-platform",
+		"dark-theme",
+		"dark-cyber-theme",
+		"color-theme",
+		"dark",
+		"dark-cyber"
+	],
+	"icon": "docs/images/icon.png",
+  "galleryBanner": {
+		"color": "#000000",
+		"theme": "dark"
+	},
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark Cyber",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dark Cyber-color-theme.json"
+      }
+    ]
+  }
+}
